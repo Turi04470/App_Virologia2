@@ -1,0 +1,39 @@
+# Gradle files
+.gradle/
+build/
+**/build/
+kotlin-js-store/
+.kotlin/
+
+# Local configuration file (Android SDK path, etc)
+local.properties
+
+# Android Studio / IntelliJ IDEA files
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Log and heap dump files
+*.log
+*.hprof
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Android build outputs
+*.apk
+*.aab
+*.ap_
+
+# Temporary and cache files
+.cache/
+tmp/
+*.tmp
+
+# Keep Gradle Wrapper jar and properties
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
